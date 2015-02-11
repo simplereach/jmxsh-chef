@@ -8,6 +8,6 @@
 #
 # You'll need to modify this when you find a place to jmxsh.
 #
-JMXSH_JARFILE=./jmxsh.jar
+JMXSH_JARFILE=<%= node['jmxsh']['path'] %>/jmxsh.jar
 
 exec java -jar $JMXSH_JARFILE "$@"

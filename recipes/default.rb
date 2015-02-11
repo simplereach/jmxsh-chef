@@ -8,9 +8,11 @@
 #
 
 path = node[:jmxsh][:path]
-cookbook_file "#{path}/jmxsh" do
-  source "jmxsh"
-  mode 0744
+template "#{path}/jmxsh" do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  source 'jmxsh.erb'
 end
 
 cookbook_file "#{path}/jmxsh.jar" do
