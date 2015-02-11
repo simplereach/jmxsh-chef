@@ -1,1 +1,1 @@
-default[:jmxsh][:path] = "/usr/bin"
+default[:jmxsh][:path] = "/usr/local/bin"

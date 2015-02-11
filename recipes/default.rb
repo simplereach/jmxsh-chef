@@ -1,10 +1,10 @@
 #
 # Cookbook Name:: jmxsh
 # Recipe:: default
+# Description:: Puts jmxsh where jmxsh needs to go
+# Author:: Eric Lubow
 #
-# Copyright 2012, Voxeo Labs ©2011
-#
-# All rights reserved - Do Not Redistribute
+# Copyright 2015, SimpleReach
 #
 
 path = node[:jmxsh][:path]
