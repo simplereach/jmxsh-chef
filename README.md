@@ -1,17 +1,14 @@
-Description
-===========
-Installs JMXSM comand line tool
+jmxsh-chef
+==========
+Installs and configures jmxsh command line tool.
 
 Requirements
 ============
-
 Java
 
-Attributes
-==========
+## Attributes
+This cookbook will install jmxsh by default.
 
-node[:jmxsh][:install_path]
+### default.rb
 
-Usage
-=====
-
+ * `node[:jmxsh][:install_path]` (default: `/usr/local/bin`): Path to install jmxsh and associated jars
